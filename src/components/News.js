@@ -14,7 +14,7 @@ const News = (props)=>{
     const capitalizeFirstLetter = (string) => {
         return string.charAt(0).toUpperCase() + string.slice(1);
     } 
-
+//23a19debd70f4232afd69091f3ade5ec
     const updateNews = async ()=> {
         props.setProgress(10);
         const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apiKey}&page=${page}&pageSize=${props.pageSize}`; 
